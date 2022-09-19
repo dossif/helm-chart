@@ -1,8 +1,8 @@
 # helm-charts
 
-Git repo link: https://github.com/dossif/helm-charts
+Git repo link: [https://github.com/dossif/helm-charts](https://github.com/dossif/helm-charts)
 
-Helm repo link: https://dossif.github.io/helm-charts/
+Helm repo link: [https://dossif.github.io/helm-charts](https://dossif.github.io/helm-charts)
 
 Add helm repo:
 
