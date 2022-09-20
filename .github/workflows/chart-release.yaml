@@ -14,7 +14,6 @@ jobs:
       - name: Checkout git repo
         uses: actions/checkout@v2
       - name: Release chart
-        uses: stefanprodan/helm-gh-pages@v1.5.0
-        with:
-          branch: master
-          token: ${{ secrets.GITHUB_TOKEN }}
+        uses: helm/chart-releaser-action@v1.4.0
+        env:
+          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
