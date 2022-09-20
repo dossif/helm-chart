@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Checkout git repo
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
       - name: Release chart
         uses: helm/chart-releaser-action@v1.4.0
         env:
