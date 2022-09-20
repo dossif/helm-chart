@@ -2,6 +2,7 @@
 # Chart release
 #
 
+name: Chart release
 on:
   push:
     branches:
@@ -12,12 +13,6 @@ jobs:
     steps:
       - name: Checkout git repo
         uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-      - name: Install Helm client
-        uses: azure/setup-helm@v3.3
-        with:
-          version: v3.4.0
       - name: Release chart
         uses: stefanprodan/helm-gh-pages@v1.5.0
         with:
