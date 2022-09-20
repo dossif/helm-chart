@@ -6,7 +6,6 @@ on:
   push:
     branches:
       - master
-
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -15,15 +14,12 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
-
       - name: Install Helm client
         uses: azure/setup-helm@v3.3
         with:
           version: v3.4.0
-
       - name: Release chart
         uses: helm/chart-releaser-action@v1.4.0
         with:
-          charts_dir: charts
-        env:
-          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          branch: master
+          token: ${{ secrets.GITHUB_TOKEN }}
