@@ -2,6 +2,17 @@ apiVersion: v1
 entries:
   redminebot:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2022-09-21T09:04:47.841681041Z"
+    description: A Helm chart for Kubernetes
+    digest: ca35d552e3374d3a46622e3dec7e66041f762459161abda80a6793431bd8ff89
+    icon: https://helm.sh/img/helm.svg
+    name: redminebot
+    type: application
+    urls:
+    - https://github.com/dossif/helm-charts/releases/download/redminebot-0.1.6/redminebot-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
     appVersion: 0.2.1
     created: "2022-09-20T12:21:22.756113576Z"
     description: A Helm chart for Kubernetes
@@ -46,4 +57,4 @@ entries:
     urls:
     - https://github.com/dossif/helm-charts/releases/download/test-chart-0.1.4/test-chart-0.1.4.tgz
     version: 0.1.4
-generated: "2022-09-20T12:21:22.900426656Z"
+generated: "2022-09-21T09:04:47.841703141Z"
