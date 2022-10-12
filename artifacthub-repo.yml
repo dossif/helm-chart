@@ -1,0 +1,6 @@
+# Artifact Hub repository metadata file
+# Doc: https://github.com/artifacthub/hub/blob/master/docs/metadata/artifacthub-repo.yml
+repositoryID: c15cb74f-998f-4f45-8377-93506a46c6d1
+owners:
+  - name: dossif
+    email: d.ossif@gmail.com
